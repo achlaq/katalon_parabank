@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 123.0.0.0,,,03-04-2024 11:45:02,03-04-2024 11:45:11,9.604s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 123.0.0.0,,,03-04-2024 11:45:02,03-04-2024 11:45:11,9.341s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,03-04-2024 11:45:02,03-04-2024 11:45:05,2.349s,PASSED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm"")",Chrome 123.0.0.0,,,03-04-2024 11:45:05,03-04-2024 11:45:08,3.324s,PASSED
+"setText(findTestObject(""Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Username_username""), Username)",Chrome 123.0.0.0,,,03-04-2024 11:45:08,03-04-2024 11:45:09,0.804s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_password""), ""tzH6RvlfSTg="")",Chrome 123.0.0.0,,,03-04-2024 11:45:09,03-04-2024 11:45:09,0.437s,PASSED
+"click(findTestObject(""Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_button""))",Chrome 123.0.0.0,,,03-04-2024 11:45:09,03-04-2024 11:45:11,2.067s,PASSED

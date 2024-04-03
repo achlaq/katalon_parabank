@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Open New Account,,,,03-04-2024 12:08:23,03-04-2024 12:08:25,1.985s,FAILED
+,,,,,,,
+Test Cases/Open New Account,,,,03-04-2024 12:08:25,03-04-2024 12:08:25,0.112s,FAILED
+"click(findTestObject(""Object Repository/Parabank - Open New Account/Page_ParaBank  Accounts Overview/a_Open New Account""))",,,,03-04-2024 12:08:25,03-04-2024 12:08:25,0.078s,FAILED

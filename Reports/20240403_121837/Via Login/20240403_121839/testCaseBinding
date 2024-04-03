@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","iterationVariableName":"","bindedValues":{"Username":"\u0027filbert.bojinov\u0027"}}
+{"testCaseName":"Test Cases/Open New Account","testCaseId":"Test Cases/Open New Account","iterationVariableName":""}
+{"testCaseName":"Test Cases/Request Loan","testCaseId":"Test Cases/Request Loan","iterationVariableName":""}
+{"testCaseName":"Test Cases/Bill Payment","testCaseId":"Test Cases/Bill Payment","iterationVariableName":"","bindedValues":{"Account":"\u002783838383\u0027","Address":"\u0027Jalan Mudir\u0027","State":"\u0027Greater Jakarta\u0027","ZipCode":"\u002713303\u0027","Phone":"\u00270837373\u0027","PayeeName":"\u0027PDAM Jayabaya\u0027","Amount":"\u002730\u0027","City":"\u0027Jakarta\u0027"}}
+{"testCaseName":"Test Cases/Logout","testCaseId":"Test Cases/Logout","iterationVariableName":""}

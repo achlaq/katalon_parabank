@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="6.906" tests="1" failures="0" errors="0">
+   <testsuite name="Register" tests="1" failures="0" errors="0" time="6.906" skipped="0" timestamp="03-04-2024T11:46:12" hostname="1735 - 192.168.137.77" id="Test Suites/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1735\\git\\katalon_parabank\\Reports\\20240403_114607\\Register\\20240403_114607"/>
+         <property name="logFiles" value="C:\\Users\\1735\\git\\katalon_parabank\\Reports\\20240403_114607\\Register\\20240403_114607\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1735 - 192.168.137.77"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.77"/>
+         <property name="sessionId" value="b1e93e2f332debb128e64d163a81dd7a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Register" time="6.529" classname="Test Cases/Register" status="PASSED">
+         <system-out><![CDATA[03-04-2024T11:46:12 - [TEST_CASE][PASSED] - Test Cases/Register: Test Cases/Register
+
+03-04-2024T11:46:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-04-2024T11:46:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-04-2024T11:46:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-04-2024T11:46:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-04-2024T11:46:14 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+03-04-2024T11:46:16 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+03-04-2024T11:46:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Username_username"), "filbert.bojinov"): Text 'filbert.bojinov' is set on object 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+03-04-2024T11:46:17 - [MESSAGE][PASSED] - Text 'filbert.bojinov' is set on object 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+03-04-2024T11:46:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_password"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+03-04-2024T11:46:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+03-04-2024T11:46:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_button")): Object: 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_button' is clicked on
+
+03-04-2024T11:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-04-2024T11:46:12 - [TEST_SUITE][PASSED] - Register: Test Cases/Register]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

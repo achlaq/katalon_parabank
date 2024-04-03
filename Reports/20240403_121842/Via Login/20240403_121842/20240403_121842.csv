@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Via Login,Chrome 123.0.0.0,,,03-04-2024 12:18:58,03-04-2024 12:19:45,46.911s,FAILED
+,,,,,,,
+Test Cases/Login,Chrome 123.0.0.0,,,03-04-2024 12:18:59,03-04-2024 12:19:13,14.241s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,03-04-2024 12:18:59,03-04-2024 12:19:06,6.366s,PASSED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm"")",Chrome 123.0.0.0,,,03-04-2024 12:19:06,03-04-2024 12:19:08,1.892s,PASSED
+"setText(findTestObject(""Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Username_username""), Username)",Chrome 123.0.0.0,,,03-04-2024 12:19:08,03-04-2024 12:19:09,1.507s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_password""), ""tzH6RvlfSTg="")",Chrome 123.0.0.0,,,03-04-2024 12:19:09,03-04-2024 12:19:10,1.139s,PASSED
+"click(findTestObject(""Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_button""))",Chrome 123.0.0.0,,,03-04-2024 12:19:10,03-04-2024 12:19:13,2.538s,PASSED
+,,,,,,,
+Test Cases/Open New Account,Chrome 123.0.0.0,,,03-04-2024 12:19:13,03-04-2024 12:19:16,3.708s,PASSED
+"click(findTestObject(""Object Repository/Parabank - Open New Account/Page_ParaBank  Accounts Overview/a_Open New Account""))",Chrome 123.0.0.0,,,03-04-2024 12:19:13,03-04-2024 12:19:14,1.075s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/select_CHECKING                  SAVINGS""), ""1"", true)",Chrome 123.0.0.0,,,03-04-2024 12:19:14,03-04-2024 12:19:16,1.667s,PASSED
+"click(findTestObject(""Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/input_What type of Account would you like t_be1ff6""))",Chrome 123.0.0.0,,,03-04-2024 12:19:16,03-04-2024 12:19:16,0.700s,PASSED
+,,,,,,,
+Test Cases/Request Loan,Chrome 123.0.0.0,,,03-04-2024 12:19:16,03-04-2024 12:19:20,3.320s,PASSED
+"click(findTestObject(""Object Repository/Parabank - Request Loan/Page_ParaBank  Customer Created/a_Request Loan""))",Chrome 123.0.0.0,,,03-04-2024 12:19:17,03-04-2024 12:19:18,1.242s,PASSED
+"setText(findTestObject(""Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Loan Amount_amount""), ""3000"")",Chrome 123.0.0.0,,,03-04-2024 12:19:18,03-04-2024 12:19:19,0.822s,PASSED
+"setText(findTestObject(""Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Down Payment_downPayment""), ""30"")",Chrome 123.0.0.0,,,03-04-2024 12:19:19,03-04-2024 12:19:19,0.711s,PASSED
+"click(findTestObject(""Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_From account_button""))",Chrome 123.0.0.0,,,03-04-2024 12:19:19,03-04-2024 12:19:20,0.372s,PASSED
+,,,,,,,
+Test Cases/Bill Payment,Chrome 123.0.0.0,,,03-04-2024 12:19:39,03-04-2024 12:19:40,1.263s,FAILED
+"click(findTestObject(""Object Repository/Parabank - Bill Payment/Page_ParaBank  Accounts Overview/a_Bill Pay""))",Chrome 123.0.0.0,,,03-04-2024 12:19:39,03-04-2024 12:19:40,1.217s,FAILED
+,,,,,,,
+Test Cases/Logout,Chrome 123.0.0.0,,,03-04-2024 12:19:44,03-04-2024 12:19:45,1.108s,FAILED
+"click(findTestObject(""Object Repository/Parabank - Register/Page_ParaBank  Customer Created/a_Log Out""))",Chrome 123.0.0.0,,,03-04-2024 12:19:44,03-04-2024 12:19:45,1.086s,FAILED

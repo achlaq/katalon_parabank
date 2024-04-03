@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Request Loan,,,,03-04-2024 12:08:30,03-04-2024 12:08:32,1.523s,FAILED
+,,,,,,,
+Test Cases/Request Loan,,,,03-04-2024 12:08:32,03-04-2024 12:08:32,0.073s,FAILED
+"click(findTestObject(""Object Repository/Parabank - Request Loan/Page_ParaBank  Customer Created/a_Request Loan""))",,,,03-04-2024 12:08:32,03-04-2024 12:08:32,0.051s,FAILED

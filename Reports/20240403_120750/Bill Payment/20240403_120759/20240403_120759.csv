@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Bill Payment,,,,03-04-2024 12:08:37,03-04-2024 12:08:39,1.293s,FAILED
+,,,,,,,
+Test Cases/Bill Payment,,,,03-04-2024 12:08:39,03-04-2024 12:08:39,0.088s,FAILED
+"click(findTestObject(""Object Repository/Parabank - Bill Payment/Page_ParaBank  Accounts Overview/a_Bill Pay""))",,,,03-04-2024 12:08:39,03-04-2024 12:08:39,0.057s,FAILED

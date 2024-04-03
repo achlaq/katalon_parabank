@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="17.603" tests="1" failures="0" errors="0">
+   <testsuite name="Register" tests="1" failures="0" errors="0" time="17.603" skipped="0" timestamp="03-04-2024T11:31:46" hostname="1735 - 192.168.137.77" id="Test Suites/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1735\\git\\katalon_parabank\\Reports\\20240403_113141\\Register\\20240403_113141"/>
+         <property name="logFiles" value="C:\\Users\\1735\\git\\katalon_parabank\\Reports\\20240403_113141\\Register\\20240403_113141\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1735 - 192.168.137.77"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.77"/>
+         <property name="sessionId" value="9e815b166c2b145f9c11b02eeb69e2e8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Register" time="17.181" classname="Test Cases/Register" status="PASSED">
+         <system-out><![CDATA[03-04-2024T11:31:46 - [TEST_CASE][PASSED] - Test Cases/Register: Test Cases/Register
+
+03-04-2024T11:31:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-04-2024T11:31:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-04-2024T11:31:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-04-2024T11:31:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-04-2024T11:31:49 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+03-04-2024T11:31:54 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+03-04-2024T11:31:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Welcome  Online Banking/a_Register")): Object: 'Object Repository/Parabank - Register/Page_ParaBank  Welcome  Online Banking/a_Register' is clicked on
+
+03-04-2024T11:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Register/Page_ParaBank  Welcome  Online Banking/a_Register' is clicked on
+
+03-04-2024T11:31:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_First Name_customer.firstName"), FirstName): Text 'Filbert' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_First Name_customer.firstName'
+
+03-04-2024T11:31:56 - [MESSAGE][PASSED] - Text 'Filbert' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_First Name_customer.firstName'
+
+03-04-2024T11:31:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName"), LastName): Text 'Bojinov' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName'
+
+03-04-2024T11:31:57 - [MESSAGE][PASSED] - Text 'Bojinov' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName'
+
+03-04-2024T11:31:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street"), Address): Text 'Jalan Apel' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street'
+
+03-04-2024T11:31:58 - [MESSAGE][PASSED] - Text 'Jalan Apel' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street'
+
+03-04-2024T11:31:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city"), City): Text 'Jakarta' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city'
+
+03-04-2024T11:31:58 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city'
+
+03-04-2024T11:31:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state"), State): Text 'Greater Jakarta' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state'
+
+03-04-2024T11:31:59 - [MESSAGE][PASSED] - Text 'Greater Jakarta' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state'
+
+03-04-2024T11:31:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode"), ZipCode): Text '11470' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode'
+
+03-04-2024T11:32:00 - [MESSAGE][PASSED] - Text '11470' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode'
+
+03-04-2024T11:32:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Phone_customer.phoneNumber"), Phone): Text '0747446' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Phone_customer.phoneNumber'
+
+03-04-2024T11:32:00 - [MESSAGE][PASSED] - Text '0747446' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Phone_customer.phoneNumber'
+
+03-04-2024T11:32:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn"), SSN): Text 'ABC-SAKATONIK' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn'
+
+03-04-2024T11:32:01 - [MESSAGE][PASSED] - Text 'ABC-SAKATONIK' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn'
+
+03-04-2024T11:32:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username"), Username): Text 'filbert.bojinov' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username'
+
+03-04-2024T11:32:02 - [MESSAGE][PASSED] - Text 'filbert.bojinov' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username'
+
+03-04-2024T11:32:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password"), Password): Text ****** has been set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password'
+
+03-04-2024T11:32:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password'
+
+03-04-2024T11:32:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_repeatedPassword"), Password): Text ****** has been set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_repeatedPassword'
+
+03-04-2024T11:32:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_repeatedPassword'
+
+03-04-2024T11:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button")): Object: 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button' is clicked on
+
+03-04-2024T11:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-04-2024T11:31:46 - [TEST_SUITE][PASSED] - Register: Test Cases/Register]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
