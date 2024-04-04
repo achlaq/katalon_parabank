@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC Parabank" time="51.307" tests="8" failures="0" errors="0">
+   <testsuite name="Via Register" tests="4" failures="0" errors="0" time="23.406" skipped="0" timestamp="04-04-2024T09:34:35" hostname="1735 - 192.168.137.77" id="Test Suites/Via Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1735\\git\\katalon_parabank\\Reports\\20240404_093426\\Via Register\\20240404_093427"/>
+         <property name="logFiles" value="C:\\Users\\1735\\git\\katalon_parabank\\Reports\\20240404_093426\\Via Register\\20240404_093427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1735 - 192.168.137.77"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.77"/>
+         <property name="sessionId" value="f517e3e7c18292a3cad085d9ea9ad159"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Register" time="16.06" classname="Test Cases/Register" status="PASSED">
+         <system-out><![CDATA[04-04-2024T09:34:35 - [TEST_CASE][PASSED] - Test Cases/Register: Test Cases/Register
+
+04-04-2024T09:34:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-04-2024T09:34:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2024T09:34:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2024T09:34:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2024T09:34:38 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+04-04-2024T09:34:42 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+04-04-2024T09:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Welcome  Online Banking/a_Register")): Object: 'Object Repository/Parabank - Register/Page_ParaBank  Welcome  Online Banking/a_Register' is clicked on
+
+04-04-2024T09:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Register/Page_ParaBank  Welcome  Online Banking/a_Register' is clicked on
+
+04-04-2024T09:34:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_First Name_customer.firstName"), FirstName): Text 'Filbert' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_First Name_customer.firstName'
+
+04-04-2024T09:34:44 - [MESSAGE][PASSED] - Text 'Filbert' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_First Name_customer.firstName'
+
+04-04-2024T09:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName"), LastName): Text 'Bojinov' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName'
+
+04-04-2024T09:34:44 - [MESSAGE][PASSED] - Text 'Bojinov' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName'
+
+04-04-2024T09:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street"), Address): Text 'Jalan Apel' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street'
+
+04-04-2024T09:34:45 - [MESSAGE][PASSED] - Text 'Jalan Apel' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street'
+
+04-04-2024T09:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city"), City): Text 'Jakarta' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city'
+
+04-04-2024T09:34:46 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city'
+
+04-04-2024T09:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state"), State): Text 'Greater Jakarta' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state'
+
+04-04-2024T09:34:47 - [MESSAGE][PASSED] - Text 'Greater Jakarta' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state'
+
+04-04-2024T09:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode"), ZipCode): Text '11470' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode'
+
+04-04-2024T09:34:47 - [MESSAGE][PASSED] - Text '11470' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode'
+
+04-04-2024T09:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Phone_customer.phoneNumber"), Phone): Text '0747446' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Phone_customer.phoneNumber'
+
+04-04-2024T09:34:48 - [MESSAGE][PASSED] - Text '0747446' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Phone_customer.phoneNumber'
+
+04-04-2024T09:34:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn"), SSN): Text 'ABC-SAKATONIK' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn'
+
+04-04-2024T09:34:49 - [MESSAGE][PASSED] - Text 'ABC-SAKATONIK' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_SSN_customer.ssn'
+
+04-04-2024T09:34:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username"), Username): Text 'filbert.bojinov' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username'
+
+04-04-2024T09:34:49 - [MESSAGE][PASSED] - Text 'filbert.bojinov' is set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username'
+
+04-04-2024T09:34:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password'
+
+04-04-2024T09:34:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password'
+
+04-04-2024T09:34:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_repeatedPassword"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_repeatedPassword'
+
+04-04-2024T09:34:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_repeatedPassword'
+
+04-04-2024T09:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button")): Object: 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button' is clicked on
+
+04-04-2024T09:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Register/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Open New Account" time="2.591" classname="Test Cases/Open New Account" status="PASSED">
+         <system-out><![CDATA[04-04-2024T09:34:51 - [TEST_CASE][PASSED] - Test Cases/Open New Account: Test Cases/Open New Account
+
+04-04-2024T09:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Open New Account/Page_ParaBank  Accounts Overview/a_Open New Account")): Object: 'Object Repository/Parabank - Open New Account/Page_ParaBank  Accounts Overview/a_Open New Account' is clicked on
+
+04-04-2024T09:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Open New Account/Page_ParaBank  Accounts Overview/a_Open New Account' is clicked on
+
+04-04-2024T09:34:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/select_CHECKING                  SAVINGS"), "1", true): All options with value '1' are selected in object 'Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/select_CHECKING                  SAVINGS'  using regular expression
+
+04-04-2024T09:34:53 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/select_CHECKING                  SAVINGS'  using regular expression
+
+04-04-2024T09:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/input_What type of Account would you like t_be1ff6")): Object: 'Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/input_What type of Account would you like t_be1ff6' is clicked on
+
+04-04-2024T09:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/input_What type of Account would you like t_be1ff6' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Request Loan" time="2.868" classname="Test Cases/Request Loan" status="PASSED">
+         <system-out><![CDATA[04-04-2024T09:34:54 - [TEST_CASE][PASSED] - Test Cases/Request Loan: Test Cases/Request Loan
+
+04-04-2024T09:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Request Loan/Page_ParaBank  Customer Created/a_Request Loan")): Object: 'Object Repository/Parabank - Request Loan/Page_ParaBank  Customer Created/a_Request Loan' is clicked on
+
+04-04-2024T09:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Request Loan/Page_ParaBank  Customer Created/a_Request Loan' is clicked on
+
+04-04-2024T09:34:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Loan Amount_amount"), "3000"): Text '3000' is set on object 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Loan Amount_amount'
+
+04-04-2024T09:34:55 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Loan Amount_amount'
+
+04-04-2024T09:34:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Down Payment_downPayment"), "30"): Text '30' is set on object 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Down Payment_downPayment'
+
+04-04-2024T09:34:56 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Down Payment_downPayment'
+
+04-04-2024T09:34:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_From account_button")): Object: 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_From account_button' is clicked on
+
+04-04-2024T09:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_From account_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="1.481" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[04-04-2024T09:34:56 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+04-04-2024T09:34:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Customer Created/a_Log Out")): Object: 'Object Repository/Parabank - Register/Page_ParaBank  Customer Created/a_Log Out' is clicked on
+
+04-04-2024T09:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Register/Page_ParaBank  Customer Created/a_Log Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-04-2024T09:34:35 - [TEST_SUITE][PASSED] - Via Register: Test Cases/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Via Login" tests="4" failures="0" errors="0" time="17.334" skipped="0" timestamp="04-04-2024T09:35:03" hostname="1735 - 192.168.137.77" id="Test Suites/Via Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1735\\git\\katalon_parabank\\Reports\\20240404_093426\\Via Login\\20240404_093429"/>
+         <property name="logFiles" value="C:\\Users\\1735\\git\\katalon_parabank\\Reports\\20240404_093426\\Via Login\\20240404_093429\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1735 - 192.168.137.77"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.137.77"/>
+         <property name="sessionId" value="54f52c290809a37c4279cc20d63ee03d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="10.114" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[04-04-2024T09:35:04 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+04-04-2024T09:35:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-04-2024T09:35:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2024T09:35:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2024T09:35:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2024T09:35:06 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+04-04-2024T09:35:10 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+04-04-2024T09:35:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Username_username"), Username): Text 'filbert.bojinov' is set on object 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+04-04-2024T09:35:10 - [MESSAGE][PASSED] - Text 'filbert.bojinov' is set on object 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+04-04-2024T09:35:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_password"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+04-04-2024T09:35:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+04-04-2024T09:35:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_button")): Object: 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_button' is clicked on
+
+04-04-2024T09:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Login/Page_ParaBank  Welcome  Online Banking/input_Password_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Open New Account" time="2.665" classname="Test Cases/Open New Account" status="PASSED">
+         <system-out><![CDATA[04-04-2024T09:35:14 - [TEST_CASE][PASSED] - Test Cases/Open New Account: Test Cases/Open New Account
+
+04-04-2024T09:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Open New Account/Page_ParaBank  Accounts Overview/a_Open New Account")): Object: 'Object Repository/Parabank - Open New Account/Page_ParaBank  Accounts Overview/a_Open New Account' is clicked on
+
+04-04-2024T09:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Open New Account/Page_ParaBank  Accounts Overview/a_Open New Account' is clicked on
+
+04-04-2024T09:35:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/select_CHECKING                  SAVINGS"), "1", true): All options with value '1' are selected in object 'Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/select_CHECKING                  SAVINGS'  using regular expression
+
+04-04-2024T09:35:16 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/select_CHECKING                  SAVINGS'  using regular expression
+
+04-04-2024T09:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/input_What type of Account would you like t_be1ff6")): Object: 'Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/input_What type of Account would you like t_be1ff6' is clicked on
+
+04-04-2024T09:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Open New Account/Page_ParaBank  Open Account/input_What type of Account would you like t_be1ff6' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Request Loan" time="2.816" classname="Test Cases/Request Loan" status="PASSED">
+         <system-out><![CDATA[04-04-2024T09:35:16 - [TEST_CASE][PASSED] - Test Cases/Request Loan: Test Cases/Request Loan
+
+04-04-2024T09:35:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Request Loan/Page_ParaBank  Customer Created/a_Request Loan")): Object: 'Object Repository/Parabank - Request Loan/Page_ParaBank  Customer Created/a_Request Loan' is clicked on
+
+04-04-2024T09:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Request Loan/Page_ParaBank  Customer Created/a_Request Loan' is clicked on
+
+04-04-2024T09:35:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Loan Amount_amount"), "3000"): Text '3000' is set on object 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Loan Amount_amount'
+
+04-04-2024T09:35:18 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Loan Amount_amount'
+
+04-04-2024T09:35:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Down Payment_downPayment"), "30"): Text '30' is set on object 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Down Payment_downPayment'
+
+04-04-2024T09:35:19 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_Down Payment_downPayment'
+
+04-04-2024T09:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_From account_button")): Object: 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_From account_button' is clicked on
+
+04-04-2024T09:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Request Loan/Page_ParaBank  Loan Request/input_From account_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="1.469" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[04-04-2024T09:35:19 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+04-04-2024T09:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Parabank - Register/Page_ParaBank  Customer Created/a_Log Out")): Object: 'Object Repository/Parabank - Register/Page_ParaBank  Customer Created/a_Log Out' is clicked on
+
+04-04-2024T09:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Parabank - Register/Page_ParaBank  Customer Created/a_Log Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-04-2024T09:35:03 - [TEST_SUITE][PASSED] - Via Login: Test Cases/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
